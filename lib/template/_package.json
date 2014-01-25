@@ -1,0 +1,14 @@
+{
+  "name": "gone",
+  "version": "0.1.0",
+  "description": "Ready, Set, Gone!",
+  "main": "gone.js",
+  "author": {
+    "name": "Vitor Britto",
+    "email": "code@vitorbritto.com.br",
+    "url": "http://vitorbritto.com.br"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}

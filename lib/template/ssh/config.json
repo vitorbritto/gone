@@ -1,0 +1,15 @@
+// -----------------------------------------------------------
+// SSH SETTINGS
+// -----------------------------------------------------------
+//
+//  host   - Hostname or IP address of the FTP server.
+//  port   - Port of the FTP server.
+//  user   - Username for authentication.
+//  pass   - Password for authentication.
+//  ignore - List of ignores files.
+//
+// -----------------------------------------------------------
+
+{
+    // TODO
+}

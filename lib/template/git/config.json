@@ -1,0 +1,15 @@
+// -----------------------------------------------------------
+// GIT SETTINGS
+// -----------------------------------------------------------
+//
+//  servername - github. bitbucket, etc.
+//  repository - URL Repository.
+//  username   - Username for authentication.
+//
+// -----------------------------------------------------------
+
+{
+    "user": "your-username",
+    "server": "your-hostname",
+    "repos": "your-repository",
+}
