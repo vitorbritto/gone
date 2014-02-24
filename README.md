@@ -61,4 +61,5 @@ Check out the following:
 Feel free to [contribute](https://github.com/vitorbritto/gone/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/gone/issues).
 
 ## License
-Copyright (c) 2014 Vitor Britto Licensed under the [MIT license](LICENSE).
+Copyright (c) 2014 Vitor Britto. <br/> 
+Licensed under the [MIT license](LICENSE).
