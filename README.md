@@ -1,8 +1,9 @@
-## Gone
+# Gone
 
 Ready, Set, Gone!
 
 > This is a work in progress and I will likely add more functionality in the future.
+
 
 ## Installation
 
@@ -27,6 +28,7 @@ chmod u+x gone.js
 
 > Use `./gone.js -h` for more details and instructions.
 
+
 ## Usage
 
 Once you have `gone` installed, just follow the steps bellow to deploy your files.
@@ -35,31 +37,39 @@ Once you have `gone` installed, just follow the steps bellow to deploy your file
 2 - Execute `chmod u+x gone.js` and `./gone.js`
 
 
-### Configuration
+## Configuration
 
 Each deploy method has its own settings for sending files and communicating with the server. Thus, the configuration file is well documented to make the reading more legible and be easily updated.
 
 Check out the following:
 
 #### FTP
+
 *[Documentation](https://npmjs.org/package/ftp)*
 *[Configuration](/lib/template/ftp/config.json)*
 
 #### SSH
+
 *[Documentation](https://npmjs.org/package/ssh)*
 *[Configuration](/lib/template/ssh/config.json)*
 
 #### Rsync
+
 *[Documentation](https://npmjs.org/package/rsync)*
 *[Configuration](/lib/template/rsync/config.json)*
 
 #### Git
+
 *[Documentation](https://npmjs.org/package/git)*
 *[Configuration](/lib/template/git/config.json)*
 
+
 ## Contributing
+
 Feel free to [contribute](https://github.com/vitorbritto/gone/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/gone/issues).
 
+
 ## License
-Copyright (c) 2014 Vitor Britto. <br/> 
-Licensed under the [MIT license](LICENSE).
+
+[MIT License](http://vitorbritto.mit-license.org/) © Vitor Britto
+
