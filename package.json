@@ -1,14 +1,15 @@
 {
+  "private": true,
   "name": "gone",
   "version": "0.1.0",
-  "description": "Ready, Set, Gone!",
+  "description": "A simple way to deploy files. Ready, Set, Gone!",
   "author": {
     "name": "Vitor Britto",
     "email": "code@vitorbritto.com.br",
     "url": "http://vitorbritto.com.br"
   },
   "keywords": [
-    "skeleton",
+    "gone",
     "boilerplate",
     "generator"
   ],
@@ -19,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/vitorbritto/gone/issues"
   },
-  "private": true,
-  "main": "gone.js",
-  "license": "MIT",
+  "licenses": {
+    "type": "MIT",
+    "url": "http://vitorbritto.mit-license.org/"
+  },
   "dependencies": {
     "commander": "~2.0.0",
     "colors": "~0.6.2",
