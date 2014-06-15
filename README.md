@@ -1,6 +1,6 @@
 # Gone
 
-Ready, Set, Gone!
+A simple way to deploy files. Ready, Set, Gone!
 
 > This is a work in progress and I will likely add more functionality in the future.
 
