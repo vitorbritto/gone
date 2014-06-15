@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Gone - A simple way to deploy files. Ready, Set, Gone!</title>
+
+    <meta name="description" content="A really simple boilerplate for new projects">
+    <meta name="keywords" content="gone, deploy, ssh, ftp, git">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/plain" rel="author" href="humans.txt" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="assets/images/logo.png" alt="Gone">
+        <h3>A simple way to deploy files. Ready, Set, Gone!</h3>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/vitorbritto/gone" class="btn">Documentation</a></li>
+                <li><a href="https://github.com/vitorbritto/gone/issues" class="btn">Contribute</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+
+        <h2 id="installation">Installation</h2>
+        <hr>
+
+        <p>1 - First of all, make sure you have <a href="http://nodejs.org/" title="NodeJS">Node.js</a> installed.</p>
+        <p>2 - Clone this repository and create your project folder</p>
+<pre>
+    <code>
+    git clone git://github.com/vitorbritto/gone.git projectname
+    cd projectname
+    </code>
+</pre>
+
+        <p>3 - Install dependencies and make the script executable</p>
+
+<pre>
+    <code>
+    npm install
+    chmod u+x gone.js
+    </code>
+</pre>
+
+        <p>4 - Run gone: <code>./gone.js run</code></p>
+        <p>5 - Choose your deploy method and set up your <a href="#configuration" title="Gone Configuration">configurations</a></p>
+        <p>6 - And you're ready to go!</p>
+
+        <p>Use <code>./gone.js -h</code> for more details and instructions.</p>
+
+
+        <h2 id="usage">Usage</h2>
+        <hr>
+
+        <p>Once you have <em>Gone</em> installed, just follow the steps bellow to deploy your files.</p>
+
+        <p>1 - Setup your preferences <em>(check the <a href="#configuration" title="Gone Configuration">configuration</a> section to begin this step)</em></p>
+        <p>2 - Execute <code>chmod u+x gone.js</code> and <code>./gone.js</code></p>
+
+
+        <h2 id="configuration">Configuration</h2>
+        <hr>
+
+        <p>Each deploy method has its own settings for sending files and communicating with the server. Thus, the configuration file is well documented to make the reading more legible and be easily updated. Check out the following:</p>
+
+        <h3>FTP</h3>
+        <ul>
+            <li>- <a href="https://npmjs.org/package/ftp" title="">Documentation</a></li>
+            <li>- <a href="/lib/template/ftp/config.json" title="">Configuration</a></li>
+        </ul>
+
+        <h3>Rsync</h3>
+        <ul>
+            <li>- <a href="https://npmjs.org/package/rsync" title="">Documentation</a></li>
+            <li>- <a href="/lib/template/rsync/config.json" title="">Configuration</a></li>
+        </ul>
+
+        <h3>Git</h3>
+        <ul>
+            <li>- <a href="https://npmjs.org/package/git" title="">Documentation</a></li>
+            <li>- <a href="/lib/template/git/config.json" title="">Configuration</a></li>
+        </ul>
+
+
+        <h2 id="contribute">Contribute</h2>
+        <hr>
+
+        <p>Feel free to <a href="https://github.com/vitorbritto/gone/pulls" title="Gone Contributions">contribute</a> with this project or leave a <a href="https://github.com/vitorbritto/gone/issues" title="Gone Suggestions">suggestion</a>.</p>
+
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2014 <a href="https://github.com/vitorbritto">Vitor Britto</a>. Made with coffee and love.</p>
+    </footer>
+
+</body>
+</html>
