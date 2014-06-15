@@ -48,11 +48,6 @@ Check out the following:
 *[Documentation](https://npmjs.org/package/ftp)*
 *[Configuration](/lib/template/ftp/config.json)*
 
-#### SSH
-
-*[Documentation](https://npmjs.org/package/ssh)*
-*[Configuration](/lib/template/ssh/config.json)*
-
 #### Rsync
 
 *[Documentation](https://npmjs.org/package/rsync)*
@@ -64,7 +59,7 @@ Check out the following:
 *[Configuration](/lib/template/git/config.json)*
 
 
-## Contributing
+## Contribute
 
 Feel free to [contribute](https://github.com/vitorbritto/gone/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/gone/issues).
 
